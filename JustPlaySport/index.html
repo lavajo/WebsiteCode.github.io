@@ -1,23 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-<title>JustPlaySports - Home Page</title>
-<meta charset="UTF-8">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustPlaySports - Home Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <meta name="description" content="A website that brings communities together with sports. This is a sport pick-up games website.">
+    <meta name="keywords" content="Sports, communities, pick-up games ">
+    <meta name="author" content="Jeffrey Lavado">
+</head>
 <body>
-    <header>
-        <h1>Welcome to JustPlaySports</h1>
-        <body style="background-color:rgb(85, 113, 214);"></body>
-        <img src="Sports1.jpeg" width="415" height="415"><img src="SportsEquipment.png" width="415" height="415"><img src="Sports2.jpeg" width="415" height="415">
-        <nav>
-        <h1><a href="index.html">Home</a></h1>    <h1><a href="AboutUs.html">About</a></h1>    <h1><a href="SignUp.html">Form</a></h1>
-        </nav>
-    </header>
+    <style>
+        body {
+                background-image: url(BackgroundPicture.png); 
+                background-size: cover; 
+                background-position: center 25%; 
+                background-repeat: no-repeat; 
+                margin: 0; 
+                padding: 0; 
+                font-family: Arial, sans-serif;
+            }
+    </style>
     <main>
-        <div>
-        Please choose an option from above so we can get you started! Anyone can join!
-        You start off by signing up. Then we use that information and connect you with people in your area with similar interests.
-
+        <header>
+            <h1>JustPlaySports</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="SignUp.html">Form</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="Content">
+            <p><h1>Featured Games</h1></p>
+            <div class="games">
+                <ul>
+                    <li><div><a href="SignUp.html"><img src="SportsComplex.jpg" alt="Sports Complex"></a></div>Game 1</li>
+                    <li><div><a href="SignUp.html"><img src="Sofi Stadium.jpg" alt="Sofi Stadium"></a></div>Game 2</li>
+                    <li><div><a href="SignUp.html"><img src="BaseballS.jpg" alt="Baseball field"></a></div>Game 3</li>
+                </ul>
+            </div>
         </div>
     </main>
     <footer>
